@@ -105,7 +105,7 @@ export function App() {
                 </span>
               </p>
             </header>
-            <section>
+            <section className={styles.tasksList}>
               {tasks.length !== 0 ? (
                 tasks.map((task) => {
                   return (

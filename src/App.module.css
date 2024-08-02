@@ -44,12 +44,12 @@
         }
       }
     }
-
-    & section {
-      max-height: 60dvh;
-      overflow-y: auto;
-    }
   }
+}
+
+.tasksList {
+  height: calc(100dvh - 292px);
+  overflow-y: auto;
 }
 
 ::-webkit-scrollbar {
@@ -60,4 +60,10 @@
 ::-webkit-scrollbar-thumb {
   background: var(--blue-400);
   border-radius: 999px;
+}
+
+@media (width<=768px) {
+  .tasksList {
+    height: calc(100dvh - 265px);
+  }
 }

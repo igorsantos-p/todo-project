@@ -7,3 +7,9 @@
     margin-inline: auto;
   }
 }
+
+@media (width<=768px) {
+  .header {
+    padding-block: 2rem 3rem;
+  }
+}
