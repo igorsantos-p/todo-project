@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de To-Do List desenvolvido com React, TypeScript e CSS Modules. O objetivo deste projeto é fornecer uma interface simples e intuitiva para registrar e gerenciar tarefas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionar novas tarefas
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Contagem de tarefas adicionadas e concluídas
 
-## Expanding the ESLint configuration
+## Interface sem o cadastro de tarefas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![image](https://github.com/user-attachments/assets/54260526-c68c-4d95-875d-a591441bd4fb)
 
-- Configure the top-level `parserOptions` property like this:
+## Interface com tarefas cadastradas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![image](https://github.com/user-attachments/assets/e9e3d6bf-c736-4888-b007-47dd7c894355)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+Feito com ❤️ por Igor Pereira
