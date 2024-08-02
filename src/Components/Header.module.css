@@ -1,0 +1,9 @@
+.header {
+  background: var(--gray-700);
+  padding-block: 4.5rem 5rem;
+
+  & img {
+    display: block;
+    margin-inline: auto;
+  }
+}
